@@ -1,19 +1,23 @@
+# How to use
+ensure data in directory `./knowledge` is up to date
+
+`uv run main.py`
+
+Script will check to see if the instructions has below 8k characters.
+
+All outputs will be saved to ./output directory.
+
+provide the agent with data in ./output directory
+
 ## Free Copilot Limitations
-Links: 4 up to 2 directorys deep.
-IMPORTANT: the ai-agent cannot provide links in responses from urls
+### Links:
+4 up to 2 directorys deep.
+
+NOTE: the ai-agent cannot provide links in responses from urls
 
     OK: `http://cyber.canton.edu/advisees/test.json` 
     NOT OK: `http://cyber.canton.edu/advisees/test/another.json`
 
-Instructions: 8k characters
-
-Hypothesis: converting pdf to structured data such as json may be more effective
-
-# How to use
-`cd helpers`
-
-make sure data in ./knowledge is up to date
-
-`uv run combine.py`
-
-`uv run instruction_check.py`
+//TODO What is the limitation of provided web link context?
+### Instructions: 
+8k characters max.

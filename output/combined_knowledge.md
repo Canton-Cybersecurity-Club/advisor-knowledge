@@ -1,13 +1,20 @@
 # Index
 
-- [crbr-degree-checklist.md](#crbr-degree-checklist)
-- [general-education-approved-courses.md](#general-education-approved-courses)
-- [instructions.md](#instructions)
-- [registration-dates.md](#registration-dates)
+0 - crbr-degree-checklist.md
 
-# crbr-degree-checklist.md
+1 - general-education-approved-courses.md
 
-# Cybersecurity (2698) Fall 2024
+2 - myjson.json
+
+3 - registration-dates.md
+
+4 - test.txt
+
+
+# 0 - crbr-degree-checklist.md
+
+ ``` 
+ # Cybersecurity (2698) Fall 2024
 
 ## SUNY Canton: Cybersecurity B.S. (2698) - Fall 2025
 
@@ -85,11 +92,13 @@
 
 ### **Total Credits Required: 124-125**
 
-*Note: (WI) indicates a writing-intensive course.*
+*Note: (WI) indicates a writing-intensive course.* 
+ ```
 
-# general-education-approved-courses.md
+# 1 - general-education-approved-courses.md
 
-# SUNY Canton General Education Approved Courses (Fall 2025)
+ ``` 
+ # SUNY Canton General Education Approved Courses (Fall 2025)
 
 ## Communication (GEBC)
 ### Communication: Written (GER 1) & Oral (GER 2)
@@ -210,56 +219,74 @@
 - **Critical Thinking (GER 12) Infusion**
 - **Information Literacy (GER 13) Infusion**
 
+ 
+ ```
 
+# 2 - myjson.json
 
-# instructions.md
+ ``` 
+ {
+    "students": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "age": 21,
+        "enrolled_courses": [
+          {
+            "course_code": "CS101",
+            "course_name": "Introduction to Computer Science",
+            "grade": "A"
+          },
+          {
+            "course_code": "MATH202",
+            "course_name": "Calculus II",
+            "grade": "B+"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "age": 22,
+        "enrolled_courses": [
+          {
+            "course_code": "CS101",
+            "course_name": "Introduction to Computer Science",
+            "grade": "A-"
+          },
+          {
+            "course_code": "PHYS101",
+            "course_name": "Physics I",
+            "grade": "B"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Mark Johnson",
+        "age": 23,
+        "enrolled_courses": [
+          {
+            "course_code": "CS101",
+            "course_name": "Introduction to Computer Science",
+            "grade": "B"
+          },
+          {
+            "course_code": "MATH101",
+            "course_name": "Calculus I",
+            "grade": "A"
+          }
+        ]
+      }
+    ]
+  }
+   
+ ```
 
-**Purpose:**  
- You are a supportive Student Advisor for SUNY Canton's cybersecurity program. You assist with telling which courses are available, which courses I should take, and what courses I need to graduate.
+# 3 - registration-dates.md
 
- You should guide me in how to register for classes and answer any questions that a student advisor should preform.
-
- **Overall direction:** 
- - Maintain a professional, supportive tone. 
- - Keep context throughout the conversation. 
- - Adapt content to my needs and present it simply. 
- - Ask clarifying and follow-up questions without overwhelming me. 
- - Briefly explain your purpose if asked. 
- - Engage with insightful questions and creative ideas. 
-
- **MUST FOLLOW RULES FOR RESPONSES**
- 1. Always reference knowledge sources when providing a response about specific classes available or required to complete.
- 2. Be clear that you are an AI agent, and you should not be relied on as 100% accurate for specific details about classes available or required.
- 3. In general, convert all URLs in the text to inline HTML anchor tags, ensuring that the existing formatting and text structure are preserved.
-
-
-**Key Steps to take for the registraton process**
-1. VIEW YOUR REGISTRATION STATUS & HOLDS
-Make sure you don’t have any holds that will keep you from course registration. You can check your holds in
-UCANWEB > STUDENT MENU > STUDENT RECORDS > VIEW HOLDS
-[PREPARE FOR REGISTRATION VIDEO TUTORIAL](https://www.youtube.com/watch?v=stLpPmBhrqM)
-
-2. SCHEDULE YOUR ACADEMIC ADVISING APPOINTMENT
-Advisors vary on how they schedule appointments: several advisors have a schedule link to their availability in ROOSUCCESS. Some will email you with appointment instructions using your SUNY Canton email. If you don’t see
-a link in ROOSUCCESS or receive instructions, we recommend that you email your advisor for an appointment.
-
-3. REVIEW YOUR DEGREE PROGRESS
-Review your [DEGREE CHECKLIST](https://www.canton.edu/advising_center/degreechecklists.html) and [DEGREEWORKS](https://can.degreeworks.suny.edu/) to help you identify what courses you will need to obtain your degree. Look for degree requirements you have not yet met and a listing of courses that can be taken to meet
-that requirement.
-
-4. REVIEW COURSE OFFERING IN UCANWEB
-To prepare for your advisement meeting, review course offerings and build a potential list of classes you want to take next semester. 
-Course offerings can be viewed in [UCANWEB](https://www.canton.edu/ucanweb/) > STUDENT MENU > REGISTRATION > BROWSE CLASSES > SPRING 2025.
-[HOW TO BROWSE FOR CLASSES PDF](https://www.canton.edu/media/pdf/browse-classes.pdf)
-
-5. MEET WITH YOUR ADVISOR!
-We encourage you to bring items you want to discuss with your advisor including next semester courses, minors, transient coursework at another institution, study abroad, and internship opportunities. 
-YOU MUST MEET WITH YOUR ACADEMIC ADVISOR BEFORE YOU WILL BE ABLE TO REGISTER. YOU WILL NOT BE GIVEN A REGISTRATION CODE UNTIL YOU MEET WITH YOUR ADVISOR.
-  
-
-# registration-dates.md
-
-# Registration Dates
+ ``` 
+ # Registration Dates
 
 ## Summer 2025  
 - **SUNY Canton Students:** March 3  
@@ -276,3 +303,14 @@ YOU MUST MEET WITH YOUR ACADEMIC ADVISOR BEFORE YOU WILL BE ABLE TO REGISTER. YO
 ## Spring 2026  
 - **SUNY Canton Students:** November 10  
 - **Non-degree Students:** December 1  
+ 
+ ```
+
+# 4 - test.txt
+
+ ``` 
+ # Test text.txt file
+lalalala 
+bobobo
+ 
+ ```

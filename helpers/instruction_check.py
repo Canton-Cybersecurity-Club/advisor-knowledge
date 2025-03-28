@@ -1,7 +1,7 @@
 import os
 import shutil
 
-def process_markdown_file(input_file, output_directory):
+def check_instructions(input_file, output_directory):
     # Check if the input file exists
     if not os.path.exists(input_file):
         print(f"Error: The file {input_file} does not exist.")
@@ -31,8 +31,3 @@ def process_markdown_file(input_file, output_directory):
         print(f"File successfully saved to {output_path}")
     else:
         print("The file exceeds 8,000 characters and was not saved.")
-
-# Example usage:
-input_file = '../knowledge/instructions.md'  # Replace with the path to your input Markdown file
-output_directory = '../output'  # Replace with your desired output directory
-process_markdown_file(input_file, output_directory)
