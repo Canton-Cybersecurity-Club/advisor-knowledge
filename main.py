@@ -1,4 +1,4 @@
-from helpers.combine import combine_files
+from helpers.combine import combine_files_to_json
 from helpers.instruction_check import check_instructions
 
 if __name__ == "__main__":
@@ -7,8 +7,8 @@ if __name__ == "__main__":
     check_instructions(input_file, output_directory)
     
     directory_path = './knowledge/sections'  # Replace with the actual directory path
-    output_file = './output/output_combined_knowledge.md'  # Output file name
-    combine_files(directory_path, output_file)
+    output_file = './output/output_combined_knowledge.json'  # Output file name
+    combine_files_to_json(directory_path, output_file)
 
 else:
     print("Script imported as module")
