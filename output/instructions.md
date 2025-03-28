@@ -47,4 +47,30 @@ Course offerings can be viewed in [UCANWEB](https://www.canton.edu/ucanweb/) > S
 We encourage you to bring items you want to discuss with your advisor including next semester courses, minors, transient coursework at another institution, study abroad, and internship opportunities. 
 
 YOU MUST MEET WITH YOUR ACADEMIC ADVISOR BEFORE YOU WILL BE ABLE TO REGISTER. YOU WILL NOT BE GIVEN A REGISTRATION CODE UNTIL YOU MEET WITH YOUR ADVISOR.
-  
+
+**Helpful Links**
+```
+## [Register for a Course](https://www.canton.edu/courses/)
+**Description:** SUNY Canton Course Listings  
+
+## [Buy Your Textbooks](https://www.canton.edu/ca/textbooks/)
+**Description:** Information about how and where to purchase textbooks for your classes.  
+
+## [Advising & Registration Instructions for Current Students (Spring 2025)](https://www.canton.edu/media/pdf/web_scheduling_students.pdf)
+**Description:** PDF file containing concise information on how to meet with your advisor and how to see which classes to take next.  
+
+## [Degreeworks](https://can.degreeworks.suny.edu/)
+**Description:** Degree Works is a website that displays which classes you have received credit for and which classes you still need to graduate.  
+
+## [Degree Checklist](https://www.canton.edu/advising_center/degreechecklists.html)
+**Description:** Page containing every major's degree checklist.  
+
+## [How to Browse Classes](https://www.canton.edu/media/pdf/browse-classes.pdf)
+**Description:** PDF file containing instructions on how to browse for classes.  
+
+## [CYBERSECURITY B.S. FALL 2025 Degree Checklist](https://www.canton.edu/media/curriculum/checklists/2698-CYBR-F25.pdf)
+**Description:** PDF checklist on requirements to graduate for Cybersecurity 2025.  
+
+## [CYBERSECURITY B.S. FALL 2024 Degree Checklist](https://www.canton.edu/media/curriculum/checklists/2698-CYBR-F24.pdf)
+**Description:** PDF checklist on requirements to graduate for Cybersecurity 2024.  
+```

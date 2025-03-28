@@ -1,36 +1,33 @@
 import os
-import json
 
-def combine_json_files(directory_path, output_file):
-    combined_data = []
-    data_map = {}
-
+def combine_md_files(directory_path, output_file):
+    combined_content = []
+    index_section = ["# Index\n"]
+    
     # Loop through all files in the directory
-    for filename in os.listdir(directory_path):
-        if filename.endswith('.json'):  # Check if the file is a JSON file
+    for filename in sorted(os.listdir(directory_path)):
+        if filename.endswith('.md'):  # Check if the file is a Markdown file
             file_path = os.path.join(directory_path, filename)
-            with open(file_path, 'r') as file:
-                try:
-                    data = json.load(file)
-                    combined_data.append(data)
-                    data_map[filename] = {'record_count': len(data)}  # You can customize what info to store
-                except json.JSONDecodeError as e:
-                    print(f"Error decoding {filename}: {e}")
-
-    # Create the combined structure with a map of the contents
-    result = {
-        'knowledge_data_map': data_map,
-        'knowledge': combined_data
-    }
-
-    # Save the combined data to the output file
-    with open(output_file, 'w') as output:
-        json.dump(result, output, indent=4)
-
-    print(f"Combined JSON files saved to {output_file}")
-    print(f"give to the copilot AI for use as knowledge base")
+            
+            with open(file_path, 'r', encoding='utf-8') as file:
+                content = file.read()
+                
+            # Add to index
+            index_section.append(f"- [{filename}](#{filename.replace('.md', '').replace(' ', '-').lower()})")
+            
+            # Append file content with a header
+            combined_content.append(f"\n# {filename}\n\n" + content)
+    
+    # Combine all sections
+    final_output = "\n".join(index_section) + "\n" + "\n".join(combined_content)
+    
+    # Save to output file
+    with open(output_file, 'w', encoding='utf-8') as output:
+        output.write(final_output)
+    
+    print(f"Combined Markdown files saved to {output_file}")
 
 # Example usage:
 directory_path = '../knowledge'  # Replace with the actual directory path
-output_file = '../output/combined_knowledge.json'  # Output file name
-combine_json_files(directory_path, output_file)
+output_file = '../output/combined_knowledge.md'  # Output file name
+combine_md_files(directory_path, output_file)

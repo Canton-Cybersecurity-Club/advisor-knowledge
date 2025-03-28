@@ -1,5 +1,6 @@
 ## Free Copilot Limitations
 Links: 4 up to 2 directorys deep.
+IMPORTANT: the ai-agent cannot provide links in responses from urls
 
     OK: `http://cyber.canton.edu/advisees/test.json` 
     NOT OK: `http://cyber.canton.edu/advisees/test/another.json`
