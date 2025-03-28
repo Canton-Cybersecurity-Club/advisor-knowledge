@@ -19,7 +19,7 @@ def check_instructions(input_file, output_directory):
     if char_count < 8000:
         # Get the base filename and create the output path
         base_filename = os.path.basename(input_file)
-        output_path = os.path.join(output_directory, base_filename)
+        output_path = os.path.join(output_directory, 'output_' + base_filename)
 
         # Ensure the output directory exists
         os.makedirs(output_directory, exist_ok=True)

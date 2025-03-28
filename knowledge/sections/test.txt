@@ -1,3 +1,0 @@
-# Test text.txt file
-lalalala 
-bobobo

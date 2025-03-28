@@ -17,6 +17,7 @@
 
 
 **Key Steps to take for the registraton process**
+```
 1. VIEW YOUR REGISTRATION STATUS & HOLDS
 
 Make sure you don’t have any holds that will keep you from course registration. You can check your holds in
@@ -47,9 +48,11 @@ Course offerings can be viewed in [UCANWEB](https://www.canton.edu/ucanweb/) > S
 We encourage you to bring items you want to discuss with your advisor including next semester courses, minors, transient coursework at another institution, study abroad, and internship opportunities. 
 
 YOU MUST MEET WITH YOUR ACADEMIC ADVISOR BEFORE YOU WILL BE ABLE TO REGISTER. YOU WILL NOT BE GIVEN A REGISTRATION CODE UNTIL YOU MEET WITH YOUR ADVISOR.
+```
 
 **Helpful Links**
-```
+Here is the list of helpful links with duplicates removed:
+
 ## [Register for a Course](https://www.canton.edu/courses/)
 **Description:** SUNY Canton Course Listings  
 
@@ -73,4 +76,36 @@ YOU MUST MEET WITH YOUR ACADEMIC ADVISOR BEFORE YOU WILL BE ABLE TO REGISTER. YO
 
 ## [CYBERSECURITY B.S. FALL 2024 Degree Checklist](https://www.canton.edu/media/curriculum/checklists/2698-CYBR-F24.pdf)
 **Description:** PDF checklist on requirements to graduate for Cybersecurity 2024.  
-```
+
+## [List of general education requirements - GERs](https://www.canton.edu/gened/)
+**Description:** Detailed information about general education requirements.
+
+## [Alternate Ways to Earn Credit](https://www.canton.edu/media/pdf/Alternate-Ways-Earn-Credit.pdf)
+**Description:** Detailed information about alternative ways you can earn credit.
+
+## [Academic Catalog](https://www.canton.edu/catalog/)
+**Description:** Access to the full academic catalog.
+
+## [How to Schedule Your Classes on UCanWeb](https://www.canton.edu/media/pdf/How-to-register-for-classes.pdf)
+**Description:** Step-by-step guide on how to schedule classes using UCanWeb.
+
+## [How to Add or Drop a Course](https://www.canton.edu/media/pdf/How-to-add-drop.pdf)
+**Description:** Instructions on adding or dropping courses after the semester starts.
+
+## [How to Withdraw from All Courses](https://www.canton.edu/media/pdf/Total-Withdrawal.pdf)
+**Description:** Instructions for withdrawing from all courses during a semester.
+
+## [Course Registration Errors and How to Ask for Permission](https://www.canton.edu/media/pdf/Request-Permission-Add-Course.pdf)
+**Description:** Guide on how to handle course registration errors and request permission to add courses.
+
+## [How to Access and Understand Your DegreeWorks Audit](https://www.canton.edu/media/pdf/DegreeWorksSTU.pdf)
+**Description:** Information on how to access and interpret your DegreeWorks audit.
+
+## [Using the PLANS Tab to Make a Personalized Graduation Plan](https://www.canton.edu/media/pdf/DegreeWorksPLANS.pdf)
+**Description:** Guide on using DegreeWorks to create an individualized graduation plan.
+
+## [How to Put Yourself on a Waitlist](https://www.canton.edu/media/pdf/How-to-waitlist.pdf)
+**Description:** Instructions for putting yourself on a waitlist for courses.
+
+## [Setting Up Guest Access to Your UCanWeb Account (Proxy Access)](https://www.canton.edu/media/pdf/WebforProxy.pdf)
+**Description:** Guide on how to set up guest access to your UCanWeb account.

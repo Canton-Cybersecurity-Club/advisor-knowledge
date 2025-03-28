@@ -7,7 +7,7 @@ if __name__ == "__main__":
     check_instructions(input_file, output_directory)
     
     directory_path = './knowledge/sections'  # Replace with the actual directory path
-    output_file = './output/combined_knowledge.md'  # Output file name
+    output_file = './output/output_combined_knowledge.md'  # Output file name
     combine_files(directory_path, output_file)
 
 else:
