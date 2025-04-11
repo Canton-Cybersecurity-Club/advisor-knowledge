@@ -1,0 +1,45 @@
+Semester,,Course ID,Course Title,GER,Credits
+1,fall,CYBR 153,Computer Logic & Algorithms,N/A,3
+1,fall,CYBR 165,Survey of Cybersecurity,N/A,3
+1,fall,ENGL 101,Composition and the Spoken Word,"1,2",3
+1,fall,MATH 121 or higher,Math Elective ,4,"3,4"
+1,fall,,Natural Science Elective,5,
+2,spring,CYBR 172,Computer Fundamentals,N/A,3
+2,spring,MATH 141,Statistics,4,3
+2,spring,N/A,Liberal Arts Elective,7,3
+2,spring,N/A,Liberal Arts Elective,3,3
+2,spring,N/A,Liberal Arts Elective,"6,8,9,10,11",3
+3,fall,CYBR 181,Programming Fundamentals,N/A,4
+3,fall,CYBR 216,Database Fundamentals,N/A,3
+3,fall,CYBR 223,Network Fundamentals,N/A,3
+3,fall,CYBR 273,OS Fundamentals,N/A,3
+3,fall,N/A,Liberal Arts Elective,"6,8,9,10,11",3
+4,spring,CITA 204,Systems Analysis & Design (Writing Intensive),,3
+4,spring,CYBR 250,Information Security,,3
+4,spring,N/A,Liberal Arts Elective,Any,3
+4,spring,N/A,Liberal Arts Elective,Any,3
+4,spring,N/A,Liberal Arts Elective,??,
+5,fall,MATH 351,Discrete Mathematics,3,
+5,fall,"CYBR 354, 356, 455",Network Security Elective,,
+5,fall,"CYBR 360, 455, 365",Data Security Elective,,
+5,fall,,Liberal Arts Elective,,
+5,fall,,General Elective,,
+6,spring,CYBR 352,Ethical Hacking & Penetration Testing,,
+6,spring,,Network Security Elective,,
+6,spring,,Data Security Elective,,
+6,spring,,Liberal Arts Elective,,
+6,spring,,General Elective,,
+7,fall,CYBR 450,Cybersecurity Body of Knowledge,,
+7,fall,,Liberal Arts Elective,,
+7,fall,,Upper Level Liberal Arts Elective,,
+7,fall,,Upper Level Liberal Arts Elective,,
+7,fall,,Upper Level Liberal Arts Elective,,
+8,spring,,Upper Level General Elective,3,
+8,spring,,Upper Level Liberal Arts Elective,3,
+8,spring,,Upper Level Liberal Arts Elective,3,
+,,,,,
+"*** Choose one of the following, Cybersecurity Practice OR two upper level program electives",,,,,
+8,spring,CYBR485,Cybersecurity Practice,,6
+,,,,,
+8,spring,"CYBR,CITA,JUST,DATA",Upper Level Program Elective,,3
+8,spring,"CYBR,CITA,JUST,DATA",Upper Level Program Elective,,3
