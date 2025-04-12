@@ -10,6 +10,10 @@ https://banweb.canton.edu/pls/prod/bwckctlg.p_display_courses
 
 
 # Database links for courses:
+SUMMER 2025:202505
+FALL 2025: 202509
+WINTER 2025-26: 202512
+SPRING 2026: 202602
 
 
 ### all subjects
