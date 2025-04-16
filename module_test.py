@@ -1,5 +1,7 @@
 from scraperoo import rooquest as rq
+
 from pprint import pp as pp
+from pprint import pprint
 
 terms = rq.terms(1)
 term = terms[0]
@@ -12,8 +14,8 @@ input('Press any button to continue...')
 # print(f"{crn=},{term['code']=}")
 # course1 = rq.course_data(term['code'],crn)
 # pp(course1)
-
+print(f'{term['code']=}')
 for crn in crns:
-    print(f"{crn=},{term['code']=}")
+    print(f"{crn=},")
     course_data = rq.course_data(term['code'],crn)
-    pp(course_data)
+    print(vars(course_data))

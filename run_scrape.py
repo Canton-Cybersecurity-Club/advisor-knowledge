@@ -4,13 +4,13 @@ from pprint import pp as pp
 from tqdm import tqdm
 
 terms = rq.terms(3)
-term = terms[0]
+term = terms[1]
 
 crns = rq.term_crns(term)
 print(f"{len(crns)} CRNs found for term {term['code']}")
 input('Press any button to continue...')
 
-filename = f"courses_{term['code']}.jsonl"
+filename = f"2courses_{term['code']}.jsonl"
 error_log = "errors.log"
 
 # Open the output and error log files outside the loop
@@ -22,7 +22,7 @@ with open(filename, 'a') as outfile, open(error_log, 'a') as errfile:
             pp(course_data)
 
             # Save course data
-            json.dump(course_data, outfile)
+            json.dump(vars(course_data), outfile)
             outfile.write('\n')
 
         except Exception as e:

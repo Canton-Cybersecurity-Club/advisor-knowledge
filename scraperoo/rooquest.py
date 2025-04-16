@@ -1,19 +1,45 @@
-from urllib import request
 import requests
 from pprint import pp as pp
+
 from bs4 import BeautifulSoup
+
 
 URLHEADER = "https://banweb.canton.edu/StudentRegistrationSsb/ssb/searchResults/"
 
+class DotDict:
+    def __init__(self, data):
+        for key, value in data.items():
+            if isinstance(value, dict):
+                value = DotDict(value)  # Recursively wrap dicts
+            setattr(self, key.lower(), value)
+
+    def __getitem__(self, key):
+        return getattr(self, key)
+
+    def __repr__(self):
+        return str(self.__dict__)
 
 class Course(object):
     """
     docstring
     """
 
-    def __init__(self):
+    def __init__(self, data:dict):
+        d = data['details']
+        self.crn = d['CRN']
+        self.campus = d['Campus']
+        self.subject = d['Subject']
+        self.title = d['Title'].title()
+        self.term = d['Associated Term']
+        self.term_id = data['meeting_times']['term']
+        self.instructional_method = d['Instructional Method']
+        self.course_number = d['Course Number']
+        self.credit_hours = d['Credit Hours']
+        self.description = data['description']
+        self.meeting_times = data['meeting_times']['meetingTime']
+        self.enrollment_info = data['enrollment_info']
+        
         pass
-
 
 def terms(last_n_terms):
     """
@@ -45,11 +71,8 @@ def course_data(term, crn):
     """
     request_identifiers = [
         "getClassDetails",  # html text
-        # "getSectionBookstoreDetails",  # html text
         "getCourseDescription",  # html text
-        # "getSyllabus",  # html text
         "getSectionAttributes",  # html text
-        # "getRestrictions",  # html text
         "getFacultyMeetingTimes",  # JSON
         "getEnrollmentInfo",  # html text
         "getCorequisites",  # html text
@@ -58,7 +81,10 @@ def course_data(term, crn):
         "getXlstSections",  # html text
         # "getLinkedSections",  # html text
         # "getFees",  # html text
-        "getSectionCatalogDetails",  # html text
+        # "getSectionCatalogDetails",  # html text
+        # "getSyllabus",  # html text
+        # "getSectionBookstoreDetails",  # html text
+        # "getRestrictions",  # html text
     ]
 
     response_data = {}
@@ -164,4 +190,6 @@ def course_data(term, crn):
                     data[key] = value
 
             response_data['catalog_details'] = data
-    return response_data
+
+    course = Course(response_data)
+    return course
